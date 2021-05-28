@@ -1,0 +1,28 @@
+name: 'ropen'
+base: core20
+version: '@PROJECT_VERSION@'
+summary: '@ROPEN_SUMMARY@'
+description: '@ROPEN_DESCRIPTION@'
+
+grade: devel # switch to stable once tested in the store 
+confinement: classic
+
+parts:
+  ropen:
+    source: "./source"
+    source-type: local
+    plugin: cmake
+    cmake-parameters: 
+      - "-DCMAKE_BUILD_TYPE=@CMAKE_BUILD_TYPE@"
+      - "-DCMAKE_INSTALL_PREFIX=/usr"
+      - "-DRENDERER=NONE"
+      - "-DINSTALL=ropen"
+    build-packages:
+      - g++
+      - git
+
+apps:
+  ropen:
+      command: usr/bin/ropen
+      
+          

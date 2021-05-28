@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblibtpp.a  CMakeFiles/libtpp.dir/bypass_pty.cpp.o CMakeFiles/libtpp.dir/local_pty.cpp.o CMakeFiles/libtpp.dir/remote_files.cpp.o CMakeFiles/libtpp.dir/sequence.cpp.o CMakeFiles/libtpp.dir/terminal_client.cpp.o
+/usr/bin/ranlib liblibtpp.a

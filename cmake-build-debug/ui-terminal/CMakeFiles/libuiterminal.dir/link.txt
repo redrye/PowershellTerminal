@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblibuiterminal.a  CMakeFiles/libuiterminal.dir/ansi_renderer.cpp.o CMakeFiles/libuiterminal.dir/ansi_terminal.cpp.o CMakeFiles/libuiterminal.dir/csi_sequence.cpp.o CMakeFiles/libuiterminal.dir/osc_sequence.cpp.o CMakeFiles/libuiterminal.dir/tests/url_matcher.cpp.o
+/usr/bin/ranlib liblibuiterminal.a

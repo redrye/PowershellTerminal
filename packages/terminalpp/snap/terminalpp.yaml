@@ -1,0 +1,49 @@
+name: 'terminalpp'
+base: core20
+version: '@PROJECT_VERSION@'
+summary: '@TERMINALPP_SUMMARY@'
+description: '@TERMINALPP_DESCRIPTION@'
+
+grade: devel # switch to stable once tested in the store 
+confinement: classic
+
+parts:
+  tpp:
+    source: "./source"
+    source-type: local
+    plugin: cmake
+    cmake-parameters: 
+      - "-DCMAKE_BUILD_TYPE=@CMAKE_BUILD_TYPE@"
+      - "-DCMAKE_INSTALL_PREFIX=/usr"
+      - "-DTERMINALPP_DESKTOP_ICON=/usr/share/icons/hicolor/256x256/apps/terminalpp.png"
+      - "-DINSTALL=terminalpp"
+    build-packages:
+      - g++
+      - libx11-dev
+      - libxft-dev
+      - git
+    stage-packages:
+      - libfontconfig1
+      - libfreetype6
+      - libpng16-16
+      - libx11-6
+      - libxau6
+      - libxcb1
+      - libxdmcp6
+      - libxft2
+      - libxrender1
+      - x11-utils
+
+apps:
+  terminalpp:
+      command: usr/bin/terminalpp
+      desktop: usr/share/applications/terminalpp.desktop
+      environment:
+          DISABLE_WAYLAND: 1
+# for legacy support of terminalpp.tpp executable in versions prior to 0.6
+  tpp:
+      command: usr/bin/terminalpp
+      environment:
+          DISABLE_WAYLAND: 1
+      
+          

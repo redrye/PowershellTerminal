@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="terminalpp"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\tpp-lib\;CMake Files\ui\;CMake Files\ui-terminal\;CMake Files\ropen\;CMake Files\terminalpp\;CMake Files\helpers\;CMake Files\tpp-bypass\;CMake Files\tpp-server\;CMake Files\docs\;CMake Files\docs\doxygen\;CMake Files\tests\;CMake Files\tools\;CMake Files\packages\;CMake Files\packages\terminalpp\;CMake Files\packages\terminalpp\deb\;CMake Files\packages\terminalpp\deb\debian\;CMake Files\packages\terminalpp\rpm\;CMake Files\packages\tpp-bypass\;CMake Files\packages\ropen\;CMake Files\packages\ropen\deb\;CMake Files\packages\ropen\deb\debian\;CMake Files\packages\ropen\rpm\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/root/Projects/terminalpp/cmake-build-debug/terminalpp"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/root/Projects/terminalpp/cmake-build-debug/terminalpp/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/root/Projects/terminalpp/cmake-build-debug/terminalpp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/root/Projects/terminalpp/cmake-build-debug/terminalpp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/root/Projects/terminalpp/cmake-build-debug/terminalpp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="terminalpp">
+				<Option output="/root/Projects/terminalpp/cmake-build-debug/terminalpp/terminalpp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/root/Projects/terminalpp/cmake-build-debug/terminalpp"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARCH_UNIX"/>
+					<Add option="-DARCH_LINUX"/>
+					<Add option="-DARCH=&quot;Linux&quot;"/>
+					<Add option="-DARCH_SIZE=64"/>
+					<Add option="-DARCH_COMPILER=&quot;GNU&quot;"/>
+					<Add option="-DARCH_COMPILER_VERSION=&quot;10.2.1&quot;"/>
+					<Add option="-DPROJECT_NAME=&quot;tpp&quot;"/>
+					<Add option="-DPROJECT_VERSION=&quot;0.8.4&quot;"/>
+					<Add option="-DRENDERER_NATIVE"/>
+					<Add directory="/root/Projects/terminalpp"/>
+					<Add directory="/usr/include/freetype2"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/root/Projects/terminalpp/cmake-build-debug/terminalpp/Makefile&quot;  VERBOSE=1 terminalpp"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/root/Projects/terminalpp/cmake-build-debug/terminalpp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/root/Projects/terminalpp/cmake-build-debug/terminalpp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/root/Projects/terminalpp/cmake-build-debug/terminalpp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="terminalpp/fast">
+				<Option output="/root/Projects/terminalpp/cmake-build-debug/terminalpp/terminalpp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/root/Projects/terminalpp/cmake-build-debug/terminalpp"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARCH_UNIX"/>
+					<Add option="-DARCH_LINUX"/>
+					<Add option="-DARCH=&quot;Linux&quot;"/>
+					<Add option="-DARCH_SIZE=64"/>
+					<Add option="-DARCH_COMPILER=&quot;GNU&quot;"/>
+					<Add option="-DARCH_COMPILER_VERSION=&quot;10.2.1&quot;"/>
+					<Add option="-DPROJECT_NAME=&quot;tpp&quot;"/>
+					<Add option="-DPROJECT_VERSION=&quot;0.8.4&quot;"/>
+					<Add option="-DRENDERER_NATIVE"/>
+					<Add directory="/root/Projects/terminalpp"/>
+					<Add directory="/usr/include/freetype2"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/root/Projects/terminalpp/cmake-build-debug/terminalpp/Makefile&quot;  VERBOSE=1 terminalpp/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/root/Projects/terminalpp/cmake-build-debug/terminalpp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/root/Projects/terminalpp/cmake-build-debug/terminalpp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/root/Projects/terminalpp/cmake-build-debug/terminalpp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/root/Projects/terminalpp/terminalpp/application.cpp">
+			<Option target="terminalpp"/>
+		</Unit>
+		<Unit filename="/root/Projects/terminalpp/terminalpp/application.h">
+			<Option target="terminalpp"/>
+		</Unit>
+		<Unit filename="/root/Projects/terminalpp/terminalpp/config.cpp">
+			<Option target="terminalpp"/>
+		</Unit>
+		<Unit filename="/root/Projects/terminalpp/terminalpp/config.h">
+			<Option target="terminalpp"/>
+		</Unit>
+		<Unit filename="/root/Projects/terminalpp/terminalpp/directwrite/directwrite_application.cpp">
+			<Option target="terminalpp"/>
+		</Unit>
+		<Unit filename="/root/Projects/terminalpp/terminalpp/directwrite/directwrite_application.h">
+			<Option target="terminalpp"/>
+		</Unit>
+		<Unit filename="/root/Projects/terminalpp/terminalpp/directwrite/directwrite_font.cpp">
+			<Option target="terminalpp"/>
+		</Unit>
+		<Unit filename="/root/Projects/terminalpp/terminalpp/directwrite/directwrite_font.h">
+			<Option target="terminalpp"/>
+		</Unit>
+		<Unit filename="/root/Projects/terminalpp/terminalpp/directwrite/directwrite_window.cpp">
+			<Option target="terminalpp"/>
+		</Unit>
+		<Unit filename="/root/Projects/terminalpp/terminalpp/directwrite/directwrite_window.h">
+			<Option target="terminalpp"/>
+		</Unit>
+		<Unit filename="/root/Projects/terminalpp/terminalpp/directwrite/windows.h">
+			<Option target="terminalpp"/>
+		</Unit>
+		<Unit filename="/root/Projects/terminalpp/terminalpp/font.h">
+			<Option target="terminalpp"/>
+		</Unit>
+		<Unit filename="/root/Projects/terminalpp/terminalpp/forms/about_box.h">
+			<Option target="terminalpp"/>
+		</Unit>
+		<Unit filename="/root/Projects/terminalpp/terminalpp/forms/terminal_window.cpp">
+			<Option target="terminalpp"/>
+		</Unit>
+		<Unit filename="/root/Projects/terminalpp/terminalpp/forms/terminal_window.h">
+			<Option target="terminalpp"/>
+		</Unit>
+		<Unit filename="/root/Projects/terminalpp/terminalpp/main_terminalpp.cpp">
+			<Option target="terminalpp"/>
+		</Unit>
+		<Unit filename="/root/Projects/terminalpp/terminalpp/qt/qt_application.cpp">
+			<Option target="terminalpp"/>
+		</Unit>
+		<Unit filename="/root/Projects/terminalpp/terminalpp/qt/qt_application.h">
+			<Option target="terminalpp"/>
+		</Unit>
+		<Unit filename="/root/Projects/terminalpp/terminalpp/qt/qt_font.h">
+			<Option target="terminalpp"/>
+		</Unit>
+		<Unit filename="/root/Projects/terminalpp/terminalpp/qt/qt_window.cpp">
+			<Option target="terminalpp"/>
+		</Unit>
+		<Unit filename="/root/Projects/terminalpp/terminalpp/qt/qt_window.h">
+			<Option target="terminalpp"/>
+		</Unit>
+		<Unit filename="/root/Projects/terminalpp/terminalpp/window.h">
+			<Option target="terminalpp"/>
+		</Unit>
+		<Unit filename="/root/Projects/terminalpp/terminalpp/x11/resources/tppIcon.cpp">
+			<Option target="terminalpp"/>
+		</Unit>
+		<Unit filename="/root/Projects/terminalpp/terminalpp/x11/resources/tppIconNotification.cpp">
+			<Option target="terminalpp"/>
+		</Unit>
+		<Unit filename="/root/Projects/terminalpp/terminalpp/x11/x11.h">
+			<Option target="terminalpp"/>
+		</Unit>
+		<Unit filename="/root/Projects/terminalpp/terminalpp/x11/x11_application.cpp">
+			<Option target="terminalpp"/>
+		</Unit>
+		<Unit filename="/root/Projects/terminalpp/terminalpp/x11/x11_application.h">
+			<Option target="terminalpp"/>
+		</Unit>
+		<Unit filename="/root/Projects/terminalpp/terminalpp/x11/x11_font.cpp">
+			<Option target="terminalpp"/>
+		</Unit>
+		<Unit filename="/root/Projects/terminalpp/terminalpp/x11/x11_font.h">
+			<Option target="terminalpp"/>
+		</Unit>
+		<Unit filename="/root/Projects/terminalpp/terminalpp/x11/x11_window.cpp">
+			<Option target="terminalpp"/>
+		</Unit>
+		<Unit filename="/root/Projects/terminalpp/terminalpp/x11/x11_window.h">
+			<Option target="terminalpp"/>
+		</Unit>
+		<Unit filename="/root/Projects/terminalpp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/root/Projects/terminalpp/tpp-lib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tpp-lib\"/>
+		</Unit>
+		<Unit filename="/root/Projects/terminalpp/ui/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ui\"/>
+		</Unit>
+		<Unit filename="/root/Projects/terminalpp/ui-terminal/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ui-terminal\"/>
+		</Unit>
+		<Unit filename="/root/Projects/terminalpp/ropen/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ropen\"/>
+		</Unit>
+		<Unit filename="/root/Projects/terminalpp/terminalpp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\terminalpp\"/>
+		</Unit>
+		<Unit filename="/root/Projects/terminalpp/helpers/helpers.cmake">
+			<Option virtualFolder="CMake Files\helpers\"/>
+		</Unit>
+		<Unit filename="/root/Projects/terminalpp/tpp-bypass/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tpp-bypass\"/>
+		</Unit>
+		<Unit filename="/root/Projects/terminalpp/tpp-bypass/install.sh">
+			<Option virtualFolder="CMake Files\tpp-bypass\"/>
+		</Unit>
+		<Unit filename="/root/Projects/terminalpp/tpp-server/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tpp-server\"/>
+		</Unit>
+		<Unit filename="/root/Projects/terminalpp/docs/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\docs\"/>
+		</Unit>
+		<Unit filename="/root/Projects/terminalpp/docs/doxygen/Doxyfile">
+			<Option virtualFolder="CMake Files\docs\doxygen\"/>
+		</Unit>
+		<Unit filename="/root/Projects/terminalpp/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\"/>
+		</Unit>
+		<Unit filename="/root/Projects/terminalpp/tools/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tools\"/>
+		</Unit>
+		<Unit filename="/root/Projects/terminalpp/packages/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\packages\"/>
+		</Unit>
+		<Unit filename="/root/Projects/terminalpp/packages/terminalpp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\packages\terminalpp\"/>
+		</Unit>
+		<Unit filename="/root/Projects/terminalpp/packages/terminalpp/deb/debian/changelog">
+			<Option virtualFolder="CMake Files\packages\terminalpp\deb\debian\"/>
+		</Unit>
+		<Unit filename="/root/Projects/terminalpp/packages/terminalpp/deb/debian/control">
+			<Option virtualFolder="CMake Files\packages\terminalpp\deb\debian\"/>
+		</Unit>
+		<Unit filename="/root/Projects/terminalpp/packages/terminalpp/rpm/terminalpp.spec">
+			<Option virtualFolder="CMake Files\packages\terminalpp\rpm\"/>
+		</Unit>
+		<Unit filename="/root/Projects/terminalpp/packages/tpp-bypass/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\packages\tpp-bypass\"/>
+		</Unit>
+		<Unit filename="/root/Projects/terminalpp/packages/ropen/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\packages\ropen\"/>
+		</Unit>
+		<Unit filename="/root/Projects/terminalpp/packages/ropen/deb/debian/changelog">
+			<Option virtualFolder="CMake Files\packages\ropen\deb\debian\"/>
+		</Unit>
+		<Unit filename="/root/Projects/terminalpp/packages/ropen/deb/debian/control">
+			<Option virtualFolder="CMake Files\packages\ropen\deb\debian\"/>
+		</Unit>
+		<Unit filename="/root/Projects/terminalpp/packages/ropen/rpm/ropen.spec">
+			<Option virtualFolder="CMake Files\packages\ropen\rpm\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

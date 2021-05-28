@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/stamp-generator.dir/helpers/stamp_generator.cpp.o  -o stamp-generator  -lstdc++fs 

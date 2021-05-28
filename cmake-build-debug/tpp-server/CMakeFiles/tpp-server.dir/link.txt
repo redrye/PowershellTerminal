@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/tpp-server.dir/main_tpp_server.cpp.o  -o tpp-server  ../ui-terminal/liblibuiterminal.a ../ui/liblibui.a ../tpp-lib/liblibtpp.a -lpthread /usr/lib/x86_64-linux-gnu/libutil.so -lstdc++fs 

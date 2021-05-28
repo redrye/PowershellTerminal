@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblibui.a  CMakeFiles/libui.dir/canvas.cpp.o CMakeFiles/libui.dir/color.cpp.o CMakeFiles/libui.dir/inputs.cpp.o CMakeFiles/libui.dir/layout.cpp.o CMakeFiles/libui.dir/renderer.cpp.o CMakeFiles/libui.dir/widget.cpp.o
+/usr/bin/ranlib liblibui.a

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/tests.dir/main-tests.cpp.o CMakeFiles/tests.dir/__/helpers/tests/events.cpp.o CMakeFiles/tests.dir/__/helpers/tests/json.cpp.o CMakeFiles/tests.dir/__/helpers/tests/string.cpp.o CMakeFiles/tests.dir/__/helpers/tests/version.cpp.o CMakeFiles/tests.dir/__/ui-terminal/tests/url_matcher.cpp.o  -o tests  ../ui/liblibui.a 

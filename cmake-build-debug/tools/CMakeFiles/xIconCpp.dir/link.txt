@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/xIconCpp.dir/xIconCpp.cpp.o  -o xIconCpp 
